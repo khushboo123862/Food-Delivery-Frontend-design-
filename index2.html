@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+	<title></title>
+	<style>
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body {
+			background: red;
+		}
+
+		#main {
+			width: auto;
+			background: white;
+			margin: 0 auto;
+		}
+
+		#header {
+			height: 50px;
+			background: red;
+		}
+
+		#navbar {
+			list-style: none;
+			box-sizing: boder-box;
+			float: right;
+			margin-top: 10px;
+			align-items: center;
+		}
+
+		#navbar li {
+			float: left;
+			position: relative;
+		}
+
+		#navbar li a {
+			text-decoration: none;
+			color: white;
+			margin: 20px;
+			font-size: 20px;
+			font-family: verdana, geneva, tohoma, sans-serif;
+			font-weight: bold;
+			padding: 40px;
+			margin: 10px;
+		}
+
+		#navbar li a:hover {
+			color: blue;
+		}
+
+		button {
+			border: none;
+			border-radius: 5px;
+			filter: drop-shadow(1px 1px 1px black)
+		}
+
+		#content {
+			height: 600px;
+			width: 980px;
+			margin: 0 auto;
+
+		}
+
+		#left-content {
+			width: 650px;
+			height: 600px;
+			float: left;
+			padding: 50px 50px 0px 0px;
+			box-sizing: border-box;
+		}
+
+		#right-content {
+			width: 330px;
+			height: 600px;
+			float: left;
+			padding: 20px 0px 0px 0px;
+		}
+
+		tr:hover {
+			background: #fff;
+			align-items: center;
+		}
+
+		.sell {
+			background: yellow;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#"> <img src="img/99.png" height="100px;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#" style="font-size:20px;">Home <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item" style=" margin-left:23px; color:#fff;">
+						<a class="nav-link" href="#" style="font-size:0px;">Menu</a>
+					</li>
+					<li class="nav-item"
+						style=" margin-left:23px; font-size:20px; color:rgb(214,160,160);">
+						<a class="nav-link" href="#">order</a>
+					</li>
+					<li class="nav-item"
+						style="margin-left:23px;  font-size:20px; color:rgb(214,160,160);">
+						<a class="nav-link" href="#">categories</a>
+					</li>
+					<li class="nav-item" style=" margin-left:23px; font-size:20px;
+						color:rgb(214,160,160);">
+						<a class="nav-link" href="#">About </a>
+					</li>
+					<li class="nav-item" style="margin-left:23px; font-size:20px;">
+						<a class="nav-link" href="#" style="font-size:20px;">Location</a>
+					</li>
+					<button class="btn btn-warning py-1 my-1" id="button-search" type="button">Sign up</button>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="main" style="background:red;">
+		<div id="content">
+			<div id="left-content">
+				<h1 style="font-size:50px;font-weight:bold;color:white;float:100px;">DELICIOUS <br>NOODLE DISH</h1>
+				<p>
+				<h6 style="color:white;">Order Delicious Food Online in Allahabad from NOODLE HOUSE. Satisfy your
+					cravings by ordering food online in Allahabad <br>with Swiggy! late-night craving…</h6>
+				</p>
+				<a class="btn btn-warning btn-lg px-4 me-sm-3" href="#features">Learn More</a>
+			</div>
+			<div id="right-content">
+				<img src="img/noodle.webp" width="500px;">
+			</div>
+		</div>
+	</div>
+
+
+	<section class="py-5">
+		<div class="container text-white" style="background:red;">
+			<div class="row">
+				<div class="col-md-8 m-auto">
+					<h2 style="margin-left:35%; font-size:40px;font-weight:bold;padding:40px;">OUR MENU</h2>
+					<table class="table table-borderless text-black">
+						<tr>
+							<th>PEKING ROASTED DUCK</th>
+							<td class="icon" style=" font-size:30px;"><ion-icon name="restaurant-outline"></ion-icon>
+							</td>
+							<td style="width:350px;">Lorem Ipsum is simply dummy text of the printing and typesetting
+							industry.</td>
+							<td class="sell">Shopping</td>
+						</tr>
+						<tr>
+							<th>KUNG PAO CHICKEN</th>
+							<td class="icon" style=" font-size:30px;"><ion-icon name="restaurant-outline"></ion-icon>
+							</td>
+							<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+							<td class="sell" >Shopping</td>/>
+						</tr>
+						<tr>
+							<th>SWEET AND SOUR PERK</th>
+							<td class="icon" style=" font-size:30px;"><ion-icon name="restaurant-outline"></ion-icon>
+							</td>
+							<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+							<td class="sell">Shopping</td>
+						</tr>
+						<tr>
+							<th>MA PO TOFU</th>
+							<td class="icon" style=" font-size:30px;"><ion-icon name="restaurant-outline"></ion-icon>
+							</td>
+							<td>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</td>
+							<td class="sell">Shopping</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+	</section>
+
+	<section class="text-white text-center">
+		<div class="container justify-content-center">
+			<h2 class="fw-bolder mb-4" style="margin-top:-40px;">CATEGORIES</h2>
+			<div class="row justify-content-center">
+				<div class="col-md-6">
+					<div class="card">
+						<img class="card-img-top" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/korean-instant-noodle-and-tteokbokki-in-korean-spicy-sauce-anci-tanmoy-kumar-singha.jpg" alt="" style="border:10px solid pink;" />
+					</div>
+				</div>
+				<div class="col-md-6 mb-5">
+					<div class="card h-100">
+						<img class="card-img-top" src="https://png.pngtree.com/thumb_back/fw800/background/20230905/pngtree-korean-noodles-restaurant-photoshoot-on-food-photography-image_13249676.jpg" alt="" style="border:10px solid pink;" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="text-white text-center">
+		<div class="container  px-4 px-lg-5 mt-5 justify-content-center">
+			<h2 class="fw-bolder mb-4" style="margin-top:-40px;">PRODUCT</h2>
+			<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+				<div class="col-md-3 mb-5">
+					<div class="card bg-danger">
+						<img class="card-img-top" src="img/99.png" alt="Card image">
+						<h6>CHICKEN VEGITABLE SOUP</h6>
+						<p style="margin-right:40%;">⭐⭐⭐⭐⭐</p>
+						<span style="margin-right:60%;">$5.00</span>
+						<div style="width:50px; height:50px; border-radius:30px 0px 0px 0px;"
+							class="bg-warning ml-auto"></div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-5">
+					<div class="card bg-danger">
+						<img class="card-img-top" src="img/c.png" alt="Card image">
+						<h6>CHICKEN VEGITABLE SOUP</h6>
+						<p style="margin-right:40%;">⭐⭐⭐⭐⭐</p>
+						<span style="margin-right:60%;">$10.00</span>
+						<div style="width:50px; height:50px; border-radius:30px 0px 0px 0px;"
+							class="bg-warning ml-auto"></div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-5">
+					<div class="card bg-danger">
+						<img class="card-img-top" src="img/noodle.webp" alt="Card image">
+						<h6>CHICKEN VEGITABLE SOUP</h6>
+						<p style="margin-right:40%;">⭐⭐⭐⭐⭐</p>
+						<span style="margin-right:60%;">$50.00</span>
+						<div style="width:50px; height:50px; border-radius:30px 0px 0px 0px;"
+							class="bg-warning ml-auto"></div>
+					</div>
+				</div>
+				<div class="col-md-3 mb-5">
+					<div class="card bg-danger">
+						<img class="card-img-top" src="img/soup.webp" alt="Card image">
+						<h6>CHICKEN VEGITABLE SOUP</h6>
+						<p style="margin-right:40%;">⭐⭐⭐⭐⭐</p>
+						<h6 style="margin-right:60%;">$100.00</h6>
+						<div style="width:50px; height:50px; border-radius:30px 0px 0px 0px;"
+							class="bg-warning ml-auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<img src="img/99.png" class="mx-auto d-block" style="width:50%; background:transparent;">
+			</div>
+			<div class="col-md-5">
+				<h2 class="text-white my-5">ABOUT US</h2>
+				<p class="text-white" style="margin-top:-45px;">Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<div class="btn-group btn-group-sm">
+					<button type="button" class="btn btn-warning">?</button>
+					<button type="button" class="btn btn-danger">Learn More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container my-5">
+		<div class="col-md-4 p-4 py-4 m-auto bg-light card">
+			<h3 class="text-center" style="font-weight:bold;">TAKE-OUT SERVICES</h3>
+			<h6 style="margin-left:10%; color:red;">Available daily <li
+					style="margin-left:40%; margin-top:-20px; color:dark red">9Am-12Pm</li>
+			</h6>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container">
+			<a class="navbar-brand" style="margin-left:30%;" href="#">Noodles</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#" style="font-size:20px;">Home <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item" style=" margin-left:23px; color:#fff;">
+						<a class="nav-link" href="#" style="font-size:0px;">Menu</a>
+					</li>
+					<li class="nav-item"
+						style=" margin-left:23px; font-size:20px; color:rgb(214,160,160);">
+						<a class="nav-link" href="#">order</a>
+					</li>
+					<li class="nav-item"
+						style="margin-left:23px;  font-size:20px; color:rgb(214,160,160);">
+						<a class="nav-link" href="#">categories</a>
+					</li>
+					<li class="nav-item" style=" margin-left:23px; font-size:20px;
+						color:rgb(214,160,160);">
+						<a class="nav-link" href="#">About </a>
+					</li>
+					<li class="nav-item" style="margin-left:23px; font-size:20px;">
+						<a class="nav-link" href="#" style="font-size:20px;">Location</a>
+					</li>
+					<button class="btn btn-warning py-1 my-1" id="button-search" type="button">Sign up</button>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+	<script src="js/jquery.3.7.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
